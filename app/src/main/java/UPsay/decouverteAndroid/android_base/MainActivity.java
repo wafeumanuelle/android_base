@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void dessiner(View view){
         TextView editText = (TextView) findViewById(R.id.monTexte); //findViewById recupere le composant à partir de son identifiant
         editText.setText("YES !!!");
+        setContentView(R.layout.gestionnaire2);
         //view.getAlpha();
     }
 }
