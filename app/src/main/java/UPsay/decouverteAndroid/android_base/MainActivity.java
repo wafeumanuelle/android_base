@@ -1,6 +1,8 @@
 package UPsay.decouverteAndroid.android_base;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void dessiner(View view){
+        TextView editText = (TextView) findViewById(R.id.monTexte); //findViewById recupere le composant à partir de son identifiant
+        editText.setText("YES !!!");
+        //view.getAlpha();
+    }
 }
+
