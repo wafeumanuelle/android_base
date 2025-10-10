@@ -39,6 +39,7 @@ public class Graphic extends View {
         yText = y;
     }
 
+
     @Override
     protected void onDraw(@NonNull Canvas canvas) {
         super.onDraw(canvas);
